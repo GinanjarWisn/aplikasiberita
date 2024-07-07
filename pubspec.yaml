@@ -1,0 +1,45 @@
+name: aplikasiberita
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.7
+  cupertino_icons: ^1.0.6
+  http: ^0.13.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  assets:
+    - assets/news_background.jpg
+    - assets/images/sports.jpg
+    - assets/images/government.jpg
+    - assets/images/market.jpg
+    - assets/icons/politics.png
+    - assets/icons/business.png
+    - assets/icons/sports.png
+    - assets/icons/entertainment.png
+    - assets/icons/health.png
+    - assets/icons/science.png
+    - assets/icons/technology.png
+    - assets/icons/environment.png
+    - assets/icons/education.png
+    - assets/icons/crime.png
+    - assets/icons/disaster.png
+    - assets/icons/travel.png
+    - assets/icons/food.png
+    - assets/icons/lifestyle.png
+    - assets/icons/social.png
+    - assets/icons/others.png
+
+  uses-material-design: true
